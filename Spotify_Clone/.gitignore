@@ -1,0 +1,19 @@
+# Vercel deployment config
+.vercel/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node modules (if you ever add JS projects)
+node_modules/
+
+# Build output (if you add build tools later)
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
