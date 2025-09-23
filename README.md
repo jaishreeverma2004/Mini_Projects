@@ -1,11 +1,7 @@
-🎧 Spotify Clone
+# Mini_Projects
+This Repo will contain my mini projects. 
 <br>
-A static HTML/CSS clone of Spotify’s homepage.
+Author - Jaishree Verma
 <br>
-You can check it out :- 
-<br>
-https://spotify-clone-mklodo5n9-jaishreevermawork-9576s-projects.vercel.app
-<br>
-🛠️ Tech Stack
-- HTML5
-- CSS3
+1. Spotify_Clone 
+(Tech Stack: HTML5, CSS3)
