@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="circle-player" id="player">
+    <button id="play-btn">▶️</button>
+    <input type="range" id="seek" value="0" min="0" step="1" />
+  </div>
+
+  <div class="song-info">
+    <p id="now-playing">Now Playing</p>
+    <p id="duration">Duration: —</p>
+    <button id="touch-btn">Play Music</button>
+  </div>
+
+  <audio id="audio" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

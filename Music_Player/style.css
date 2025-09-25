@@ -1,0 +1,83 @@
+/* style.css */
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at center, #020202, #322639);
+  font-family: sans-serif;
+}
+
+.circle-player {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0a0226, #6e4a61);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+#seek {
+  width: 50%;
+  accent-color: #00a6ff;
+  background: #fff;
+  margin-top: 8px;
+  box-shadow: #fff;
+}
+
+@keyframes pulse { 
+  0% { box-shadow: 0 0 20px rgba(124, 92, 255, 0.4); }
+  50% { box-shadow: 0 0 40px rgba(124, 92, 255, 0.6); }
+  100% { box-shadow: 0 0 20px rgba(124, 92, 255, 0.4); }
+}
+
+#play-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#play-btn:hover {
+  transform: scale(1.1);
+}
+.song-info {
+  margin-top: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.song-info p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 90%;
+}
+
+.song-info button {
+  background-color: #8400ff;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.song-info button:hover {
+  background-color: #a94dff;
+  transform: scale(1.05);
+}
