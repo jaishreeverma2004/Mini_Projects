@@ -5,3 +5,5 @@ Author - Jaishree Verma
 <br>
 1. Spotify_Clone 
 (Tech Stack: HTML5, CSS3)
+2. Music_Player
+(Tech Stack: HTML5, CSS3, JavaScipt)
